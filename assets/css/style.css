@@ -60,35 +60,7 @@ header {
     margin-top: 64px;
     margin-bottom: 64px;
     color: #fff;
-}
-
-
-.logo {
-/*      background: url("../images/cover1.jpg");      */
-    background: url("../images/capuchin_monkey_1.jpg");  
-    background-position: top ;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    min-height: 174px;  
-/*    max-width: 264px;   */
-/*    max-height: 163px;  */
-/*    width: auto;        */
-/*    height: auto;       */
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-.logo2 {
-/*      background: url("../images/cover1.jpg");      */
-    background: url("../images/capuchin_monkey_2.jpg");  
-    background-position: top ;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    min-height: 174px;   
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    text-align: center;
 }
 
 
@@ -145,7 +117,7 @@ header {
 /*------------------------------------------ Main Body */
 
 .hire-us {
-    padding: 10px ;
+    padding: 10px 0px 10px 20px ;
     
 }
 
@@ -164,7 +136,6 @@ footer {
 
 .hire-us-link {
     padding-bottom: 15px;
-    padding-left: 5px;
     padding-top: 5px;
 }
 
@@ -190,6 +161,7 @@ footer {
 
 .social-links {
     padding-bottom: 15px;
+    padding-top: 5px;
 }
 
 .social-links li a i {
@@ -213,5 +185,58 @@ footer {
 }
 
 #footer-details {
-    margin: 20px;
+    margin: 10px;
+}
+
+/*---------------------------------------- Media Queries */
+
+@media(min-width: 992px) {
+    
+.logo {
+/*      background: url("../images/cover1.jpg");      */
+    background: url("../images/capuchin_monkey_1.jpg");  
+    background-position: top ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 174px;  
+/*    max-width: 264px;   */
+/*    max-height: 163px;  */
+/*    width: auto;        */
+/*    height: auto;       */
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    }
+
+.logo2 {
+/*      background: url("../images/cover1.jpg");      */
+    background: url("../images/capuchin_monkey_2.jpg");  
+    background-position: top ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 174px;   
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    }
+}
+
+@media(max-width: 992px) {
+    
+.logo {
+/*      background: url("../images/cover1.jpg");      */
+    background: url("../images/capuchin_monkey_1.jpg");  
+    background-position: top ;
+    background-repeat: repeat-x; 
+    
+    min-height: 174px;  
+/*    max-width: 264px;   */
+/*    max-height: 163px;  */
+/*    width: auto;        */
+/*    height: auto;       */
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    }
+
 }
