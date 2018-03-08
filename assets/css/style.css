@@ -14,13 +14,22 @@
     background-color: #ff0000;
 }
 
+.bg-color-history {
+    background-color: #000080;
+}
+
 /*------------------------------------------Special Paddings/Margins/Text */
 
 h1 {
     margin: 20% 20% 20% 20%; 
 }
 
-h2, h3, h4 {
+h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+h2, h4 {
     margin: 0;
 }
 
@@ -42,9 +51,26 @@ h5 {
     font-weight: 300;
     margin-top: 30px;
     margin-bottom: 40px;
+    margin-left: -6px;
     text-transform: uppercase;
 }
 
+.history-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.container-fluid {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
 
 /*------------------------------------------Heading */
 
@@ -95,7 +121,7 @@ header {
 #nav {
     padding: 0;
     list-style-type: none;
-        margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .menuitem {
@@ -127,8 +153,7 @@ header {
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 2px;
-    
-    
+ 
 }
 
 .hvr-sweep-to-bottom:before {
@@ -144,7 +169,7 @@ header {
 }
 
 
-/*------------------------------------------ Main Body */
+/*------------------------------------------ Home Main Body */
 
 .hire-us {
     padding: 10px 0px 10px 20px ;
@@ -155,6 +180,61 @@ header {
     padding: 10px 0px 10px 10px;
     
 }
+
+/*------------------------------------------ History Main Body */
+
+.history {
+    color: #fff;
+    padding-right: 10px;
+    margin: 0;
+}
+
+/*------------------------------------------ Music Main Body */
+
+.music-pic {
+    padding: 0;
+}
+
+/*------------------------------------------ Images Main Body */
+
+.format-image {
+    padding-bottom: 10px; 
+}
+
+.offset-column {
+    margin-top: 100px;
+}
+
+.image-column {
+    height: 1000px;
+}
+
+/*------------------------------------------ Hire Us Contact */
+
+.center-form {
+    max-width: 70%;   
+    margin: auto;
+    padding: 40px;
+}
+
+.contact-h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-text {
+    margin-top: 20px;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #ff0000;
+    color: #fff;
+}
+
+
 /*------------------------------------------ Footer */
 
 footer {
