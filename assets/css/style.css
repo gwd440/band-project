@@ -3,23 +3,23 @@
 /* -----------------------------------------Colours */
 
 .bg-color-name {
-    background-color: #000080;
+    background-color: #3a3335;
 }
 
 .bg-color-hire-us {
-    background-color: #ffff00;
+    background-color: #fefdfb;
 }
 
 .ui-menu-color {
-    background-color: #ff0000;
+    background-color: #1F487E;
 }
 
 .ui-menu-color2 {
-    background-color: #ffa500;
+    background-color: #2E2E2E;
 }
 
 .bg-color-history {
-    background-color: #000080;
+    background-color: #3a3335;
 }
 
 /*------------------------------------------Special Paddings/Margins/Text */
@@ -55,7 +55,7 @@ h5 {
     font-weight: 300;
     margin-top: 30px;
     margin-bottom: 40px;
-    margin-left: -6px;
+    margin-left: -16px;
     text-transform: uppercase;
 }
 
@@ -122,7 +122,11 @@ header {
 
 /*------------------------------------------ Menu Bar */
 
-#nav {
+ul {
+    margin-top: -1px;
+}
+
+.menubar {
     padding: 0;
     list-style-type: none;
     margin-bottom: 0;
@@ -176,12 +180,12 @@ header {
 /*------------------------------------------ Home Main Body */
 
 .hire-us {
-    padding: 10px 0px 10px 20px ;
+    padding: 10px 10px 10px 20px ;
     
 }
 
 .latest-news {
-    padding: 10px 0px 10px 10px;
+    padding: 10px 10px 10px 20px;
     
 }
 
@@ -190,6 +194,7 @@ header {
 .history {
     color: #fff;
     padding-right: 10px;
+    padding-left: 20px;
     margin: 0;
 }
 
@@ -201,24 +206,24 @@ header {
 
 /*------------------------------------------ Images Main Body */
 
-.format-image {
-    padding-bottom: 10px; 
-}
-
-.offset-column {
-    margin-top: 100px;
-}
+.image-format {
+    padding-bottom: 30px;
+    width:150px;
+    height:150px;
+    float: left;
+    margin: 10px;
+    }
 
 .image-column {
-    height: 1000px;
-}
+    margin: 0 0 -2px 0;
+    }     
 
 /*------------------------------------------ Hire Us Contact */
 
 .center-form {
-    max-width: 70%;   
+    max-width: 90%;   
     margin: auto;
-    padding: 40px;
+    padding: 40px 40px 40px 40px;
 }
 
 .contact-h3 {
@@ -231,9 +236,13 @@ header {
     margin-top: 20px;
 }
 
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
+.form-control {
+    margin: 20px;
+}
+
+button[type="contact"] {
+    margin-top: 50px;
+    margin-bottom: 50px;
     background-color: #ff0000;
     color: #fff;
 }
@@ -298,6 +307,42 @@ footer {
 
 /*---------------------------------------- Media Queries */
 
+@media(min-width: 540px)   {
+
+.image-format {
+    padding-bottom: 30px;
+    width:250px;
+    height:250px;
+    }
+}
+
+
+@media(min-width: 768px) {
+
+.offset-column {
+    margin-top: 100px;
+    }
+    
+.image-format {
+    padding: 0 0 30px 0;
+    width:260px;
+    height:260px;
+    }
+
+.image-column {
+    height: 1200px;
+    color: #fff;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin: 0 -1px 0 0;
+    }     
+
+.center-form {
+    max-width: 60%;   
+    }    
+}
+
+
 @media(min-width: 992px) {
     
 .logo {
@@ -318,5 +363,36 @@ footer {
 
 .row-header2 .header-column2 {
     height: 200px;
+    }
+    
+ul {
+    margin-top: 0;
+    }
+
+.video-padding {
+    padding-bottom: 200px;
+    }
+    
+.image-format {
+    padding-bottom: 30px;
+    width:275px;
+    height:275px;
+    }
+
+.offset-column {
+    margin-top: 100px;
+    }
+
+.image-column {
+    height: 1300px;
+    color: #fff;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin: 0 -1px 0 0;
+    } 
+
+.center-form {
+    max-width: 50%;   
+    }    
 }
-}
+
