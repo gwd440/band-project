@@ -10,11 +10,11 @@
     background-color: #fefdfb;
 }
 
-.ui-menu-color {
+.ui-menu-color-blue {
     background-color: #1F487E;
 }
 
-.ui-menu-color2 {
+.ui-menu-color-gray {
     background-color: #2E2E2E;
 }
 
@@ -166,7 +166,7 @@ ul {
 
 .hvr-sweep-to-bottom:before {
     transition-duration: 0.5s; 
-    background: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.2);
     height: 80px;
 }
 
@@ -200,13 +200,85 @@ ul {
 
 /*------------------------------------------ Music Main Body */
 
-.music-pic {
-    padding: 0;
+.music {
+    color: #fff;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+
+.music-format {
+    list-style-type: none;
 }
 
 /*------------------------------------------ Images Main Body */
 
+.image-ul {
+    display: inline-block;
+    text-align: center;
+}
+
 .image-format {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:150px;
+    height:150px;
+    margin: 0 10px 10px 10px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.image-album {
+    background-image: url("../images/album.jpg"); 
+}
+
+.image-cover {
+    background-image: url("../images/cover.jpg"); 
+}
+
+.image-cover3 {
+    background-image: url("../images/cover3.jpg"); 
+}
+
+.image-mn {
+    background-image: url("../images/mn.jpg"); 
+}
+
+.image-album2 {
+    background-image: url("../images/album2.jpg"); 
+}
+
+.image-cover1 {
+    background-image: url("../images/cover1.jpg"); 
+}
+
+.image-dj {
+    background-image: url("../images/dj.jpg"); 
+}
+
+.image-monkees {
+    background-image: url("../images/monkees.jpg"); 
+}
+
+.image-band {
+    background-image: url("../images/band.jpg"); 
+}
+
+.image-cover2 {
+    background-image: url("../images/cover2.png"); 
+}
+
+.image-md {
+    background-image: url("../images/md.jpg"); 
+}
+
+.image-pt {
+    background-image: url("../images/pt.jpg"); 
+}
+
+.image-format2 {
     padding-bottom: 30px;
     width:150px;
     height:150px;
@@ -218,12 +290,20 @@ ul {
     margin: 0 0 -2px 0;
     }     
 
+
+/*------------------------------------------ Videos  */
+
+video {
+    width: 100%;
+    height: auto;
+}
+
 /*------------------------------------------ Hire Us Contact */
 
 .center-form {
     max-width: 90%;   
-    margin: auto;
-    padding: 40px 40px 40px 40px;
+    margin: 0 auto;
+    padding: 40px 40px 10px 40px;  
 }
 
 .contact-h3 {
@@ -237,7 +317,7 @@ ul {
 }
 
 .form-control {
-    margin: 20px;
+    margin: 0 auto;
 }
 
 button[type="contact"] {
@@ -307,7 +387,7 @@ footer {
 
 /*---------------------------------------- Media Queries */
 
-@media(min-width: 540px)   {
+@media(min-width: 480px)   {
 
 .image-format {
     padding-bottom: 30px;
@@ -319,11 +399,9 @@ footer {
 
 @media(min-width: 768px) {
 
-.offset-column {
-    margin-top: 100px;
-    }
+
     
-.image-format {
+/* .image-format {
     padding: 0 0 30px 0;
     width:260px;
     height:260px;
@@ -335,7 +413,7 @@ footer {
     padding-right: 10px;
     padding-left: 20px;
     margin: 0 -1px 0 0;
-    }     
+    }  */   
 
 .center-form {
     max-width: 60%;   
@@ -369,15 +447,27 @@ ul {
     margin-top: 0;
     }
 
+.offset-column {
+    margin-top: 100px;
+    }
+
 .video-padding {
     padding-bottom: 200px;
     }
     
-.image-format {
+/* .image-format {
     padding-bottom: 30px;
     width:275px;
     height:275px;
-    }
+    }  */
+
+.image-format {
+    width:200px;
+    height:200px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
 
 .offset-column {
     margin-top: 100px;
@@ -394,5 +484,6 @@ ul {
 .center-form {
     max-width: 50%;   
     }    
+
 }
 
