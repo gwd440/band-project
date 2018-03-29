@@ -55,17 +55,10 @@ h5 {
     font-weight: 300;
     margin-top: 30px;
     margin-bottom: 40px;
-    margin-left: -16px;
+    margin-left: auto;
     text-transform: uppercase;
 }
 
-.history-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    text-transform: uppercase;
-}
 
 .container-fluid {
     padding-right: 10px;
@@ -180,42 +173,66 @@ ul {
 /*------------------------------------------ Home Main Body */
 
 .hire-us {
-    padding: 10px 10px 10px 20px ;
+    padding: 0 10px 10px 15px ;
     
 }
 
 .latest-news {
-    padding: 10px 10px 10px 20px;
-    
+    padding: 0 0  10px 15px;
 }
 
+/* .col-md-12 {
+    padding-left: 5px;
+} */
+
 /*------------------------------------------ History Main Body */
+
+.history-heading {
+    color: #fff;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
 
 .history {
     color: #fff;
     padding-right: 10px;
-    padding-left: 20px;
+    padding-left: 16px;
     margin: 0;
 }
 
+
 /*------------------------------------------ Music Main Body */
+
+.music-heading {
+    color: #fff;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 23px;
+    text-transform: uppercase;
+}
 
 .music {
     color: #fff;
-    padding-right: 10px;
-    padding-left: 20px;
     margin: 0 auto;
 }
 
-.music-format {
+.music-lines {
     list-style-type: none;
 }
 
 /*------------------------------------------ Images Main Body */
 
-.image-ul {
-    display: inline-block;
+.image-heading {
     text-align: center;
+}
+
+.image-heading2 {
+    display: inline-block;
 }
 
 .image-format {
@@ -226,8 +243,7 @@ ul {
     height:150px;
     margin: 0 10px 10px 10px;
     display: inline-block;
-    text-align: center;
-
+    
 }
 
 .image-album {
@@ -301,7 +317,7 @@ video {
 /*------------------------------------------ Hire Us Contact */
 
 .center-form {
-    max-width: 90%;   
+    max-width: 80%;   
     margin: 0 auto;
     padding: 40px 40px 10px 40px;  
 }
@@ -317,12 +333,13 @@ video {
 }
 
 .form-control {
-    margin: 0 auto;
+    margin: 10px auto;
+    resize: none;
 }
 
 button[type="contact"] {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 60px;
     background-color: #ff0000;
     color: #fff;
 }
@@ -399,24 +416,8 @@ footer {
 
 @media(min-width: 768px) {
 
-
-    
-/* .image-format {
-    padding: 0 0 30px 0;
-    width:260px;
-    height:260px;
-    }
-
-.image-column {
-    height: 1200px;
-    color: #fff;
-    padding-right: 10px;
-    padding-left: 20px;
-    margin: 0 -1px 0 0;
-    }  */   
-
 .center-form {
-    max-width: 60%;   
+    max-width: 50%;   
     }    
 }
 
@@ -447,42 +448,28 @@ ul {
     margin-top: 0;
     }
 
-.offset-column {
-    margin-top: 100px;
-    }
-
 .video-padding {
     padding-bottom: 200px;
     }
-    
-/* .image-format {
-    padding-bottom: 30px;
-    width:275px;
-    height:275px;
-    }  */
+
+.image-heading {
+     text-align: center;
+    }    
 
 .image-format {
     width:200px;
     height:200px;
     margin: 10px;
     display: inline-block;
-    text-align: center;
 }
 
-.offset-column {
-    margin-top: 100px;
-    }
-
 .image-column {
-    height: 1300px;
+    height: auto;
     color: #fff;
-    padding-right: 10px;
-    padding-left: 20px;
-    margin: 0 -1px 0 0;
     } 
 
 .center-form {
-    max-width: 50%;   
+    max-width: 40%;   
     }    
 
 }
