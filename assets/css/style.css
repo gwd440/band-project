@@ -33,10 +33,6 @@ h3 {
     margin: 0;
 }
 
-h2, h4 {
-    margin: 0;
-}
-
 h5 {
     text-transform: uppercase;
 }
@@ -59,7 +55,6 @@ h5 {
     text-transform: uppercase;
 }
 
-
 .container-fluid {
     padding-right: 10px;
     padding-left: 10px;
@@ -71,21 +66,12 @@ h5 {
 
 /*------------------------------------------Heading */
 
-header {
-    margin: 0;
-}
-
 .row-header .header-column {
     height: 200px;
 }
 
-.row-header2 .header-column2 {
+.header-column2 {
     height: 0;
-}
-
-.row {
-    margin-right: -10px;
-    margin-left: -10px;
 }
 
 .header-anchor {
@@ -163,11 +149,6 @@ ul {
     height: 80px;
 }
 
-.hvr-glow:hover {
-    transition-duration: 0.5s; 
-    background-color: #f5f5f5;
-    color: red;
-}
 
 
 /*------------------------------------------ Home Main Body */
@@ -180,10 +161,6 @@ ul {
 .latest-news {
     padding: 0 0  10px 15px;
 }
-
-/* .col-md-12 {
-    padding-left: 5px;
-} */
 
 /*------------------------------------------ History Main Body */
 
@@ -228,12 +205,12 @@ ul {
 /*------------------------------------------ Images Main Body */
 
 .image-heading {
-    text-align: center;
-}
+     margin: 10px;
+    }    
 
-.image-heading2 {
-    display: inline-block;
-}
+.image-center {
+    text-align: center;
+    }
 
 .image-format {
     background-size: cover;
@@ -243,7 +220,6 @@ ul {
     height:150px;
     margin: 0 10px 10px 10px;
     display: inline-block;
-    
 }
 
 .image-album {
@@ -294,14 +270,6 @@ ul {
     background-image: url("../images/pt.jpg"); 
 }
 
-.image-format2 {
-    padding-bottom: 30px;
-    width:150px;
-    height:150px;
-    float: left;
-    margin: 10px;
-    }
-
 .image-column {
     margin: 0 0 -2px 0;
     }     
@@ -310,7 +278,7 @@ ul {
 /*------------------------------------------ Videos  */
 
 video {
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
@@ -338,8 +306,8 @@ video {
 }
 
 button[type="contact"] {
-    margin-top: 40px;
-    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-bottom: 80px;
     background-color: #ff0000;
     color: #fff;
 }
@@ -440,7 +408,7 @@ footer {
     transition: all .25s ease-in-out;
     }
 
-.row-header2 .header-column2 {
+.header-column2 {
     height: 200px;
     }
     
@@ -448,13 +416,9 @@ ul {
     margin-top: 0;
     }
 
-.video-padding {
-    padding-bottom: 200px;
+.image-center {
+    text-align: left;
     }
-
-.image-heading {
-     text-align: center;
-    }    
 
 .image-format {
     width:200px;
