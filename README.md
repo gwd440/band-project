@@ -20,7 +20,7 @@ and another 'Hire Us' offer with link.
 As the brief stressed the band's willingness to perform at functions, each page 
 contains three different links to the 'Hire Us' contact page.
 
-The History page contains a brief outline of the history of the band.
+The History page contains a brief outline of the possible history of the band.
 
 Music contains four links to music tracks.
 
@@ -33,3 +33,5 @@ The Hire Us page simply contains a contact form with some instructions on the
 details required.
 
 The web site was tested for functionality and responsiveness within Cloud9.
+As changes were applied, each page was reloaded and then tested to ensure it  
+reacted satisfactorily for different screen sizes.
