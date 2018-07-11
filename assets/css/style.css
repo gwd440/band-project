@@ -305,7 +305,7 @@ video {
     resize: none;
 }
 
-button[type="contact"] {
+button[type="submit"] {
     margin-top: 20px;
     margin-bottom: 80px;
     background-color: #ff0000;
